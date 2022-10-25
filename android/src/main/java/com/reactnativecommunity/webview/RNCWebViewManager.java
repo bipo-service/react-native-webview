@@ -159,6 +159,7 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
   // state and release page resources (including any running JavaScript).
   protected static final String BLANK_URL = "about:blank";
   protected static final int SHOULD_OVERRIDE_URL_LOADING_TIMEOUT = 250;
+  protected static final String DEFAULT_DOWNLOADING_MESSAGE = "Downloading";
   protected WebViewConfig mWebViewConfig;
 
   protected RNCWebChromeClient mWebChromeClient = null;
